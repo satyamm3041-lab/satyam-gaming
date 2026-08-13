@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:#070a10;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.auth-box{
+  width:100%;
+  max-width:420px;
+  background:#101620;
+  border:1px solid #243044;
+  border-radius:20px;
+  padding:30px;
+  box-shadow:0 20px 60px rgba(0,0,0,.4);
+}
+
+.logo{
+  text-align:center;
+  font-size:28px;
+  font-weight:bold;
+  color:#00ff9d;
+  margin-bottom:8px;
+}
+
+.subtitle{
+  text-align:center;
+  color:#8d98aa;
+  margin-bottom:28px;
+}
+
+label{
+  display:block;
+  margin:15px 0 7px;
+  color:#dce2eb;
+}
+
+input{
+  width:100%;
+  padding:14px;
+  border-radius:10px;
+  border:1px solid #29364a;
+  background:#080d15;
+  color:#fff;
+  outline:none;
+}
+
+input:focus{
+  border-color:#00ff9d;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  margin-top:22px;
+  border:0;
+  border-radius:10px;
+  background:#00ff9d;
+  color:#06110c;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.message{
+  margin-top:16px;
+  text-align:center;
+  color:#00ff9d;
+  min-height:22px;
+}
+
+.switch{
+  text-align:center;
+  margin-top:20px;
+  color:#8d98aa;
+}
+
+.switch a{
+  color:#00ff9d;
+  text-decoration:none;
+}
